@@ -19,15 +19,20 @@ A calendar which is a container for events.
 |[Create multi-value extended property](../api/multivaluelegacyextendedproperty_post_multivalueextendedproperties.md) | [calendar](calendar.md) | Create one or more multi-value extended properties in a new or existing calendar.  |
 |[Get calendar with multi-value extended property](../api/multivaluelegacyextendedproperty_get.md)  | [calendar](calendar.md) | Get a calendar that contains a multi-value extended property by using `$expand`. |
 
-
 ### Properties
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
+|canEdit|Boolean|True if the user can edit the calendar, false otherwise.|
+|canShare|Boolean|True if the user can share the calendar, false otherwise.|
+|canViewPrivateItems|Boolean|True if the user can view private items in the calendar, false otherwise.|
 |changeKey|String|Identifies the version of the calendar object. Every time the calendar is changed, ChangeKey  changes as well. This allows Exchange to apply changes to the correct version of the object. Read-only.|
 |color|String|Specifies the color theme to distinguish the calendar from other calendars in a UI. The property values are: LightBlue=0, LightGreen=1, LightOrange=2, LightGray=3, LightYellow=4, LightTeal=5, LightPink=6, LightBrown=7, LightRed=8, MaxColor=9, Auto=-1|
 |id|String|The group's unique identifier. Read-only.|
 |isDefaultCalendar|Boolean|True if this calendar is the user's default calendar, false otherwise.|
+|isShared|Boolean|True if the calendar is a shared calendar, false otherwise.|
+|isSharedWithMe|Boolean|True if the calendar is shared with the user, false otherwise.|
 |name|String|The calendar name.|
+|owner|emailAddress|The email address of the owner of the calendar.|
 
 ### Relationships
 | Relationship | Type	|Description|
