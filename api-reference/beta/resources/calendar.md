@@ -32,7 +32,7 @@ A calendar which is a container for events.
 |isShared|Boolean|True if the calendar is a shared calendar, false otherwise.|
 |isSharedWithMe|Boolean|True if the calendar is shared with the user, false otherwise.|
 |name|String|The calendar name.|
-|owner|(emailAddress)|The email address of the owner of the calendar.|
+|owner|[emailAddress](emailAddress.md)|The email address of the owner of the calendar.|
 
 ### Relationships
 | Relationship | Type	|Description|
