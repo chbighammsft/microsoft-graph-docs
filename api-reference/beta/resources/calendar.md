@@ -29,7 +29,7 @@ A calendar which is a container for events.
 |color|String|Specifies the color theme to distinguish the calendar from other calendars in a UI. The property values are: LightBlue=0, LightGreen=1, LightOrange=2, LightGray=3, LightYellow=4, LightTeal=5, LightPink=6, LightBrown=7, LightRed=8, MaxColor=9, Auto=-1|
 |id|String|The group's unique identifier. Read-only.|
 |isDefaultCalendar|Boolean|True if this calendar is the user's default calendar, false otherwise.|
-|isShared|Boolean|True if the calendar is a shared calendar, false otherwise.|
+|isShared|Boolean|True if the calendar is shared with someone else, false otherwise.|
 |isSharedWithMe|Boolean|True if the calendar is shared with the user, false otherwise.|
 |name|String|The calendar name.|
 |owner|[emailAddress](emailAddress.md)|The email address of the owner of the calendar.|
